@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portofolio pribadi - menampilkan tentang saya, keahlian, dan proyek yang pernah dibuat." />
+  <title>RIKY WARDHANA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Fira+Code:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="header" id="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">Nama<span> : RIKY WARDHANA</span><span class="dot">.</span></a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link active">RIKY wardhana</a></li>
+        <li><a href="#about" class="nav-link">Mahasiswa biasa</a></li>
+        <li><a href="#skills" class="nav-link">belum ada kemampuan yang spesifik</a></li>
+        <li><a href="#projects" class="nav-link">frist my website</a></li>
+        <li><a href="#contact" class="nav-link">zheezheee09@gmail.com</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Ganti tema" title="Ganti tema">
+          <span class="theme-icon">🌙</span>
+        </button>
+        <div class="hamburger" id="hamburger" aria-label="Buka menu" role="button" tabindex="0">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+      <div class="hero-bg-shape shape-one"></div>
+      <div class="hero-bg-shape shape-two"></div>
+      <div class="container hero-content">
+        <div class="hero-text reveal">
+          <p class="hero-greeting">Halo, world <span class="wave">👋</span></p>
+          <h1 class="hero-title">RIKY WARDHANA</h1>
+          <h2 class="hero-subtitle">Mahasiswa biasa <span id="typed-text" class="typed-text">Web Developer</span><span class="cursor">|</span></h2>
+          <p class="hero-description">
+            Saya adalah seorang mahasiswa yang ingin belajar dan mencari pengalaman baru di dunia IT.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">blm ada</a>
+            <a href="#contact" class="btn btn-outline">zheezheee09@gmail.com</a>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.11.79-.25.79-.56v-2.2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.56-.29-5.25-1.28-5.25-5.68 0-1.25.45-2.28 1.18-3.08-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.15 1.18a10.94 10.94 0 0 1 5.74 0c2.18-1.49 3.15-1.18 3.15-1.18.62 1.58.23 2.75.11 3.04.74.8 1.18 1.83 1.18 3.08 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.68.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 2H3.55A1.55 1.55 0 0 0 2 3.55v16.9A1.55 1.55 0 0 0 3.55 22h16.9A1.55 1.55 0 0 0 22 20.45V3.55A1.55 1.55 0 0 0 20.45 2ZM8 19H5V9.5h3V19ZM6.5 8.2a1.75 1.75 0 1 1 0-3.5 1.75 1.75 0 0 1 0 3.5ZM19 19h-3v-4.6c0-1.1-.02-2.5-1.53-2.5-1.53 0-1.77 1.19-1.77 2.42V19h-3V9.5h2.88v1.3h.04a3.16 3.16 0 0 1 2.84-1.56c3.04 0 3.6 2 3.6 4.6V19Z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.43.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.43.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.8 3.8 0 0 1-1.38-.9 3.8 3.8 0 0 1-.9-1.38c-.16-.43-.36-1.06-.41-2.23C2.21 15.58 2.2 15.2 2.2 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.43-.16 1.06-.36 2.23-.41C8.42 2.21 8.8 2.2 12 2.2Zm0 1.8c-3.15 0-3.5.01-4.73.07-.94.04-1.45.2-1.79.34-.45.17-.77.38-1.11.72-.34.34-.55.66-.72 1.11-.14.34-.3.85-.34 1.79C3.01 8.5 3 8.85 3 12s.01 3.5.07 4.73c.04.94.2 1.45.34 1.79.17.45.38.77.72 1.11.34.34.66.55 1.11.72.34.14.85.3 1.79.34 1.23.06 1.58.07 4.73.07s3.5-.01 4.73-.07c.94-.04 1.45-.2 1.79-.34.45-.17.77-.38 1.11-.72.34-.34.55-.66.72-1.11.14-.34.3-.85.34-1.79.06-1.23.07-1.58.07-4.73s-.01-3.5-.07-4.73c-.04-.94-.2-1.45-.34-1.79a2.98 2.98 0 0 0-.72-1.11 2.98 2.98 0 0 0-1.11-.72c-.34-.14-.85-.3-1.79-.34C15.5 4.01 15.15 4 12 4Zm0 3.1a4.9 4.9 0 1 1 0 9.8 4.9 4.9 0 0 1 0-9.8Zm0 1.8a3.1 3.1 0 1 0 0 6.2 3.1 3.1 0 0 0 0-6.2Zm5.1-2.05a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3Z"/></svg>
+            </a>
+            <a href="mailto:nama@email.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M2 5.5A2.5 2.5 0 0 1 4.5 3h15A2.5 2.5 0 0 1 22 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-15A2.5 2.5 0 0 1 2 18.5v-13Zm2.2.3 7.8 6 7.8-6A.5.5 0 0 0 19.5 5h-15a.5.5 0 0 0-.3.8ZM20 7.3l-8 6.15-8-6.15V18.5c0 .28.22.5.5.5h15c.28 0 .5-.22.5-.5V7.3Z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-image reveal">
+          <div class="avatar-ring">
+            <div class="avatar">
+              <!-- Ganti dengan foto Anda: letakkan gambar di folder portfolio lalu ubah src di bawah -->
+              <span class="avatar-initials">NA</span>
+            </div>
+          </div>
+          <div class="hero-badge">
+            <span class="badge-dot"></span> Tersedia untuk proyek baru
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-down" aria-label="Gulir ke bawah">
+        <span></span><span></span><span></span>
+      </a>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-label">nama saya riky</span>
+          <h2 class="section-title">saya orangnya baik</h2>
+          <div class="underline"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <h3>Seseorang yang suka membangun hal-hal baru di internet.</h3>
+            <p>
+              Halo! Saya adalah <strong>RIKY</strong>, seorang mahasiswa dari Indonesia.
+              Saya menyukai praktek dari pada meteri terus,
+              tetapi juga memberikan pengalaman yang menyenangkan bagi penggunanya.
+            </p>
+            <p>
+              Saat ini saya fokus mempelajari teknologi web modern seperti JavaScript, dan framework
+              frontend. Saya percaya bahwa belajar terus-menerus adalah kunci untuk berkembang
+              di dunia teknologi yang terus berubah.
+            </p>
+            <div class="about-info">
+              <div class="info-item"><span>Lokasi</span><strong>Indonesia</strong></div>
+              <div class="info-item"><span>Fokus</span> : ui/ux and web Development<strong></strong></div>
+              <div class="info-item"><span>blm ada</span><strong>2 bulan belajar</strong></div>
+              <div class="info-item"><span>Bahasa</span><strong> : Indonesia, Inggris</strong></div>
+            </div>
+            <a href="#contact" class="btn btn-primary">Mari Bekerja Bersama</a>
+          </div>
+
+          <div class="about-cards reveal">
+            <div class="about-card">
+              <div class="card-icon">💻</div>
+              <h4>Development</h4>
+              <p>Membangun website responsif dengan kode yang bersih dan terstruktur.</p>
+            </div>
+            <div class="about-card">
+              <div class="card-icon">🎨</div>
+              <h4>Design</h4>
+              <p>Merancang antarmuka yang sederhana, intuitif, dan menarik.</p>
+            </div>
+            <div class="about-card">
+              <div class="card-icon">🚀</div>
+              <h4>Belajar Terus</h4>
+              <p>Selalu mengikuti perkembangan teknologi terbaru di dunia web.</p>
+            </div>
+            <div class="about-card">
+              <div class="card-icon">🤝</div>
+              <h4>Kerja Tim</h4>
+              <p>Menyukai kolaborasi dan bertukar ide untuk hasil yang lebih baik.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-label">promt ai dengan maksimal</span>
+          <h2 class="section-title">ngeprom ai dengan maksimal</h2>
+          <div class="underline"></div>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <div class="skill-card-icon">🌐</div>
+            <h3>Frontend</h3>
+            <ul class="skill-list">
+              <li>HTML5 &amp; CSS3</li>
+              <li>JavaScript (ES6+)</li>
+              <li>Responsive Design</li>
+              <li>React.js</li>
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-card-icon">⚙️</div>
+            <h3>Backend</h3>
+            <ul class="skill-list">
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>MySQL &amp; MongoDB</li>
+              <li>REST API</li>
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-card-icon">🛠️</div>
+            <h3>Tools</h3>
+            <ul class="skill-list">
+              <li>Git &amp; GitHub</li>
+              <li>VS Code</li>
+              <li>Figma</li>
+              <li>Vite</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="progress-wrapper reveal">
+          <h3 class="progress-title">Tingkat Kemahiran</h3>
+          <div class="progress-item">
+            <div class="progress-label"><span>HTML &amp; CSS</span><span>90%</span></div>
+            <div class="progress-track"><div class="progress-bar" data-progress="60"></div></div>
+          </div>
+          <div class="progress-item">
+            <div class="progress-label"><span>JavaScript</span><span>20%</span></div>
+            <div class="progress-track"><div class="progress-bar" data-progress="80"></div></div>
+          </div>
+          <div class="progress-item">
+            <div class="progress-label"><span>React.js</span><span>10%</span></div>
+            <div class="progress-track"><div class="progress-bar" data-progress="70"></div></div>
+          </div>
+          <div class="progress-item">
+            <div class="progress-label"><span>Node.js</span><span>5%</span></div>
+            <div class="progress-track"><div class="progress-bar" data-progress="65"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-label">Proyek Saya</span>
+          <h2 class="section-title">Karya yang Pernah Saya Buat</h2>
+          <div class="underline"></div>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-image project-1">
+              <span class="project-emoji">🛒</span>
+            </div>
+            <div class="project-body">
+              <span class="project-tag">Web App</span>
+              <h3>Toko Online</h3>
+              <p>Website e-commerce sederhana dengan fitur keranjang belanja, pencarian produk, dan tampilan responsif.</p>
+              <div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">Source Code ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image project-2">
+              <span class="project-emoji">📝</span>
+            </div>
+            <div class="project-body">
+              <span class="project-tag">Aplikasi</span>
+              <h3>Aplikasi Todo List</h3>
+              <p>Aplikasi pengelola tugas dengan fitur tambah, edit, hapus, dan menyimpan data di localStorage.</p>
+              <div class="project-tech"><span>JavaScript</span><span>LocalStorage</span></div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">Source Code ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image project-3">
+              <span class="project-emoji">🌤️</span>
+            </div>
+            <div class="project-body">
+              <span class="project-tag">API</span>
+              <h3>Aplikasi Cuaca</h3>
+              <p>Menampilkan informasi cuaca secara real-time berdasarkan lokasi menggunakan API publik.</p>
+              <div class="project-tech"><span>React</span><span>API</span><span>CSS</span></div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">Source Code ↗</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <div class="section-heading left">
+            <span class="section-label">zheezheee09@gmail.com</span>
+            <h2 class="section-title">Mari Kita Ngobrol</h2>
+            <div class="underline"></div>
+          </div>
+          <p>Punya pertanyaan, ide proyek, atau sekadar ingin menyapa? Jangan ragu untuk menghubungi saya. Saya akan membalas secepatnya!</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">📧</div>
+              <div><span>Email</span><strong>zheezheee09@email.com</strong></div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📱</div>
+              <div><span>Telepon</span><strong>+62 8******</strong></div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div><span>Lokasi</span><strong>Indonesia</strong></div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">RIKY</label>
+              <input type="text" id="name" name="name" placeholder="Nama Anda" required />
+              <small class="error-message"></small>
+            </div>
+            <div class="form-group">
+              <label for="email">zheezheee09@gmail.com</label>
+              <input type="email" id="email" name="email" placeholder="nama@email.com" required />
+              <small class="error-message"></small>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subjek</label>
+            <input type="text" id="subject" name="subject" placeholder="Tentang apa?" required />
+            <small class="error-message"></small>
+          </div>
+          <div class="form-group">
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda di sini..." required></textarea>
+            <small class="error-message"></small>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">jangan pernah menyalahkan dunia karena kamu belum siap karena bumi tidak berhenti berputar ✉️</button>
+          <p class="form-status" id="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="year"></span> Nama Anda. Dibuat dengan ❤️ menggunakan HTML, CSS &amp; JavaScript.</p>
+      <a href="#home" class="back-to-top" aria-label="Kembali ke atas">↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
